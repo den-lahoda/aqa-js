@@ -14,7 +14,7 @@ export default class EBook extends Book {
     if (typeof value === 'string' && value.length > 0) {
       this._fileFormat = value;
     } else {
-      console.error("Невірний формат файлу");
+      console.error('Невірний формат файлу');
     }
   }
 
